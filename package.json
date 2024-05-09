@@ -1,0 +1,11 @@
+{
+    "name": "ui5.tooling",
+    "version": "1.0.0",
+    "description": "My UI5 learning app",
+    "scripts": {
+        "start": "ui5 serve -o index.html"
+    },
+    "devDependencies": {
+        "@ui5/cli": "^3.10.0"
+    }
+}
