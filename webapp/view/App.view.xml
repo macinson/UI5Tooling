@@ -1,0 +1,12 @@
+<mvc:View
+   controllerName="ui5.tooling.controller.App"
+   xmlns="sap.m"
+   xmlns:mvc="sap.ui.core.mvc">
+   <Text text="Hemlo"/>
+   <Button
+    text="Click this I dare you"
+    press=".buttonClicked"/>
+   <Button
+    text="doSth"
+    press=".doSth"/>
+</mvc:View>
