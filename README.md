@@ -12,3 +12,10 @@ To start the app execute:
 ```
 npm start
 ```
+To use bootstrap execute the following:
+```
+npx ui5 use OpenUI5
+```
+```
+npx ui5 add sap.ui.core sap.m themelib_sap_horizon
+```
