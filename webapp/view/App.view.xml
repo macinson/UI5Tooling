@@ -9,4 +9,9 @@
    <Button
     text="doSth"
     press=".doSth"/>
+    <Input
+      value="{/test/ff}"
+      description="Hello {/test/ff}"
+      valueLiveUpdate="true"
+      width="60%"/>
 </mvc:View>
