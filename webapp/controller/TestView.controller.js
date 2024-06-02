@@ -5,8 +5,5 @@ sap.ui.define([
     'use strict';
     
     return Controller.extend("ui5.tooling.controller.TestView",{
-        testPush(){
-            MessageToast.show("Test")
-        }
     })
 });

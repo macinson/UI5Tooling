@@ -1,16 +1,15 @@
 <mvc:View
    controllerName="ui5.tooling.controller.TestView"
    xmlns="sap.m"
-   xmlns:mvc="sap.ui.core.mvc">
-   <Panel
-      headerText="{i18n>testViewHeader}"
+   xmlns:mvc="sap.ui.core.mvc"
+   xmlns:l="sap.ui.layout">
+   <List
       class="sapUiResponsiveMargin"
-      width="auto">
-      <content>
-         <Button
-            text="{i18n>testViewButtonText}"
-            press=".testPush"
-            />
-      </content>
-   </Panel>
+      width="auto"
+      items="{invoice>/Invoices}">
+      <items>
+         <ObjectListItem
+            title="{invoice>ProductName}"/>
+      </items>
+   </List>
 </mvc:View>
