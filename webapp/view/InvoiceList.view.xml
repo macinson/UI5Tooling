@@ -1,5 +1,5 @@
 <mvc:View
-   controllerName="ui5.tooling.controller.TestView"
+   controllerName="ui5.tooling.controller.InvoiceList"
    xmlns="sap.m"
    xmlns:mvc="sap.ui.core.mvc"
    xmlns:l="sap.ui.layout">
@@ -9,7 +9,9 @@
       items="{invoice>/Invoices}">
       <items>
          <ObjectListItem
-            title="{invoice>ProductName}"/>
+            title="{invoice>ProductName}"
+            type="Navigation"
+            press=".fetchDetails"/>
       </items>
    </List>
 </mvc:View>

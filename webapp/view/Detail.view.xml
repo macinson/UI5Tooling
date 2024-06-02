@@ -1,0 +1,9 @@
+<mvc:View
+   controllerName="ui5.tooling.controller.Detail"
+   xmlns="sap.m"
+   xmlns:mvc="sap.ui.core.mvc">
+   <Page title="{i18n>detailTitle}">
+        <Panel headerText="{invoice>ProductName}">
+        </Panel>
+   </Page>
+</mvc:View>
