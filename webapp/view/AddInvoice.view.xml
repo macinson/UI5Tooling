@@ -1,0 +1,19 @@
+<mvc:View
+    controllerName="ui5.tooling.controller.Detail"
+    xmlns="sap.m"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns:f="sap.ui.layout.form"
+    xmlns:core="sap.ui.core">
+    <Page title="{i18n>addInvoiceTitle}">
+        <Panel>
+            <!-- <f:SimpleForm
+                editable="false">
+                <f:title>
+                    <core:Title text ="{i18n>inputInvoiceDetails}"/>
+                </f:title>
+                <f:layout>
+                </f:layout>
+            <f:SimpleForm> -->
+        </Panel>
+    </Page>
+</mvc:View>

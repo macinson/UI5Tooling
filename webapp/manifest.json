@@ -71,6 +71,11 @@
 			"pattern": "detail/{invoicePath}",
 			"name": "detail",
 			"target": "detail"
+		  },
+		  {
+			"pattern": "add",
+			"name": "addInvoice",
+			"target": "addInvoice"
 		  }
 		],
 		"targets": {
@@ -81,6 +86,10 @@
 		  "detail": {
 			"id": "detail",
 			"name": "Detail"
+		  },
+		  "addInvoice": {
+			"id": "addInvoice",
+			"name": "AddInvoice"
 		  }
 		}
 	  }
