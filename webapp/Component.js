@@ -14,20 +14,7 @@ sap.ui.define([
        init() {
           // call the init function of the parent
           UIComponent.prototype.init.apply(this, arguments);
-          // set data model
-          const oData = {
-             recipient : {
-                name : "World"
-             }
-          };
-          const oModel = new JSONModel(oData);
-          this.setModel(oModel);
- 
-          // set i18n model
-          const i18nModel = new ResourceModel({
-             bundleName: "ui5.tooling.i18n.i18n"
-          });
-          this.setModel(i18nModel, "i18n");
+          
 
           // create the views based on the url/hash
 			 this.getRouter().initialize();
