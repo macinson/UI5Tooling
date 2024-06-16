@@ -7,7 +7,7 @@ sap.ui.define([
         saveInvoice(){
             var model = this.getView().getModel("invoice")
             var productName = this.getView().byId("productName")
-            model.getData().Invoices.push({"ProductName": "Pineapple",
+            model.getData().Invoices.push({"ProductName": productName.getValue(),
             "Quantity": 21,
             "ExtendedPrice": 87.2,
             "InvoiceDate": "2015-04-01T00:00:00",
